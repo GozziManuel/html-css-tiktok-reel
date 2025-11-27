@@ -80,13 +80,61 @@ footer {
 
 /* Sidebar */
 .sidebar {
-	padding: 0 16px;
+	padding: 0 30px;
 	position: absolute;
+	display: flex;
+	flex-direction: column;
 	right: 0;
 	top: 40%;
-
+	
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.imgboolean{
+	box-sizing: border-box;
+    max-width: 100%;
+	border-radius: 100px;
+	border: solid white 2px;
+	position: relative;
+	
+}
+.contenitoreimg{
+	height: 40px;
+	width: 40px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.booleanover::after{
+	content: "+";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(249, 48, 80);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    top: 13%;
+    right: 40%;
+    font-weight: bold;
+	
+}
+.iconsidebar{
+	width: 100%;
+	color:white;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 3px;
+	margin-bottom: 30px;
 }
 
 /* ---------------------
@@ -98,11 +146,6 @@ da rimuovere una volta concluso
 	 border: 2px dashed #fff;
 }
 
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
 
 
 
