@@ -148,5 +148,57 @@ footer {
 span{
 	cursor: pointer;
 }
+/* final navbar */
+.finalnavbar{
+	max-width: 100%;
+	min-height: 80px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content:space-around;
+	color: white;
+	padding: 20px 10px 20px 10px;
+}
+.centered{
+	text-align: center;
 
+}
+/* Container For add button */
+.addcontainer{
+	line-height: 27px;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+	box-shadow:3px 0px rgba(255, 0, 255), -3px 0 rgba(0, 255, 255);
+}
+/* some add-on */
+.buttondescription{
+	font-size: 12px;
+}
+.absolute{
+	position: absolute;
+	right: 22%;
+}
+/* EMAIL NOTIFICATION */
+.sendedemail::after{
+	content: "19";
+    bottom: 41px;
+    content: "19";
+    position: absolute;
+    height: 15px;
+    width: 25px;
+    background-color: rgba(249, 48, 80);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    border: none;
+    color: white;
+    right: 20%;
+}
 
