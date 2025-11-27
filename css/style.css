@@ -31,9 +31,38 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	display: flex;
+	padding: 40px;
+	color: white;
+	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.spacing{
+	word-spacing: 20px;
+}
+.notification::after{
+	content: "";
+	height: 7px;
+	background-color: rgba(255, 0, 115, 0.633);
+	position: absolute;
+	width: 7px;
+	border-radius: 10px;
+	right:42% ;
+}
+.notselected{
+	color:gray;
+}
+.underline::after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 30px;
+	position:absolute;
+	background-color: white;
+	border-radius: 10px;
+	right: 32%
 }
 
 /* Footer */
@@ -66,7 +95,7 @@ da rimuovere una volta concluso
 --------------------- */
 .debug footer {
 	min-height: 100px;
-	border: 2px dashed #fff;
+	 border: 2px dashed #fff;
 }
 
 .debug .sidebar {
@@ -75,9 +104,6 @@ da rimuovere una volta concluso
 	border: 2px dashed #ff0;
 }
 
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
+
 
 /* --------------------- */
