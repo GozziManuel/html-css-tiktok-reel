@@ -18,7 +18,7 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh; /* ti incuriosisce? */  /*mhhh mai sentito e mai visto 🤔*/
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -34,14 +34,12 @@ video {
 	display: flex;
 	padding: 40px;
 	color: white;
-	
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
+/* spacing for HEADER */
 .spacing{
 	word-spacing: 20px;
 }
+/* ICONE HEADER */
 .notification::after{
 	content: "";
 	height: 7px;
@@ -52,7 +50,7 @@ video {
 	right:42% ;
 }
 .notselected{
-	color:gray;
+	opacity: 45%;
 }
 .underline::after{
 	content: "";
@@ -73,9 +71,6 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
 
 /* Sidebar */
@@ -86,9 +81,7 @@ footer {
 	flex-direction: column;
 	right: 0;
 	top: 40%;
-	
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+/* IMG LOGO */
 }
 .imgboolean{
 	box-sizing: border-box;
@@ -108,6 +101,7 @@ footer {
 	flex-direction: column;
 	margin-top: 30px;
 }
+/* + OVER */
 .booleanover::after{
 	content: "+";
     position: absolute;
@@ -125,6 +119,7 @@ footer {
     font-weight: bold;
 	
 }
+/* ICONE SIDEBAR */
 .iconsidebar{
 	width: 100%;
 	color:white;
@@ -134,19 +129,24 @@ footer {
 	justify-content: center;
 	flex-direction: column;
 	gap: 3px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+/* Footer */
+
+.nickname{
+	font-size: 16px;
+	font-weight: bold; 
+	margin: 20px 0 5px 20px;
+}
+.description{
+	font-size: 15px;
+	margin: 5px 0 15px 20px;
+}
+/* POINTER */
+.bi,
+.contenitoreimg,
+span{
+	cursor: pointer;
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	 border: 2px dashed #fff;
-}
 
-
-
-
-/* --------------------- */
