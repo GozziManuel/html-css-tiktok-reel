@@ -81,6 +81,7 @@ footer {
 	flex-direction: column;
 	right: 0;
 	top: 40%;
+	gap: 15px;
 /* IMG LOGO */
 }
 .imgboolean{
@@ -94,41 +95,53 @@ footer {
 .contenitoreimg{
 	height: 40px;
 	width: 40px;
+	
 	margin-bottom: 30px;
+	margin-top: 30px;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 30px;
+	
 }
 /* + OVER */
 .booleanover::after{
 	content: "+";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: rgba(249, 48, 80);
-    border-radius: 10px;
-    text-align: center;
-    line-height: 19px;
-    font-size: 20px;
-    border: none;
-    color: white;
-    top: 13%;
+    
+	position: absolute;
+	top: 14%;
     right: 40%;
-    font-weight: bold;
+
+	height: 20px;
+    width: 20px;
+    
+	background-color: rgba(249, 48, 80);
+    border-radius: 10px;
+    
+	text-align: center;
+    line-height: 19px;
+    
+	font-size: 20px;
+    color: white;
+	font-weight: bold;
+    
+	border: none;
 	
 }
 /* ICONE SIDEBAR */
 .iconsidebar{
 	width: 100%;
+	
 	color:white;
 	font-size: 13px;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	gap: 3px;
+	
 	margin-bottom: 20px;
 }
 /* Footer */
@@ -145,41 +158,56 @@ footer {
 /* POINTER */
 .bi,
 .contenitoreimg,
-span{
+span,
+.notselected:hover{
 	cursor: pointer;
+	opacity: 100%;
 }
 /* final navbar */
 .finalnavbar{
 	max-width: 100%;
 	min-height: 80px;
+	
 	background-color: black;
+	
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content:space-around;
+	
 	color: white;
+	
 	padding: 20px 10px 20px 10px;
+	gap: 29px;
 }
 .centered{
 	text-align: center;
-
+	flex: 1 1 0;
+}
+.relative{
+	position: relative;
 }
 /* Container For add button */
 .addcontainer{
 	line-height: 27px;
     text-align: center;
-    height: 30px;
+  	height: 30px;
     width: 50px;
-    border-radius: 20%;
+    
+	border-radius: 20%;
     background-color: white;
-    color: black;
+    
+	color: black;
     font-size: 30px;
-	cursor: pointer;
+
 	box-shadow:3px 0px rgba(255, 0, 255), -3px 0 rgba(0, 255, 255);
+	
+	cursor: pointer;
 }
 /* some add-on */
 .buttondescription{
 	font-size: 12px;
+	flex: 1 1 0;
 }
 .absolute{
 	position: absolute;
@@ -188,18 +216,24 @@ span{
 /* EMAIL NOTIFICATION */
 .sendedemail::after{
 	content: "19";
-    bottom: 41px;
-    content: "19";
+
     position: absolute;
-    height: 15px;
+    left: 50%;
+    top: 0;
+
+	height: 15px;
     width: 25px;
+
     background-color: rgba(249, 48, 80);
     border-radius: 10px;
-    text-align: center;
-    line-height: 15px;
+    
+	text-align: center;
+	
+	line-height: 15px;
     font-size: 13px;
-    border: none;
+    
+	border: none;
     color: white;
-    right: 20%;
+    
 }
 
